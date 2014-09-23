@@ -1,0 +1,47 @@
+{
+  "name": "info-tts",
+  "version": "0.0.0",
+  "main": "lib/info-tts.js",
+  "description": "A node service to check weather info periodically and speak out loud",
+  "homepage": "http://naustud.io",
+  "bugs": "https://github.com/trongthanh/info-tts/issues",
+  "author": {
+    "name": "Thanh Tran",
+    "email": "trongthanh@gmail.com",
+    "url": "http://int3ractive.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trongthanh/info-tts"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "info-tts",
+    "text-to-speech",
+    "weather",
+    "time",
+    "news"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "info-tts": "cli.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "request": "^2.44.0"
+  }
+}
