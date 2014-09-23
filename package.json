@@ -42,6 +42,7 @@
   },
   "preferGlobal": "true",
   "dependencies": {
+    "player": "^0.1.8",
     "request": "^2.44.0"
   }
 }
