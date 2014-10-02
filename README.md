@@ -1,27 +1,13 @@
-#  [![Build Status](https://secure.travis-ci.org/trongthanh/tttinfo-announcer.png?branch=master)](http://travis-ci.org/trongthanh/tttinfo-announcer)
 
 > A node service to check weather info periodically and speak out loud
 
 
 ## Getting Started
 
-Install the module with: `npm install tttinfo-announcer`
-
-```js
-var tttinfo-announcer = require('tttinfo-announcer');
-tttinfo-announcer.awesome(); // "awesome"
+Install this crontab to execute every hour
 ```
-
-Install with cli command
-
-```sh
-$ npm install -g tttinfo-announcer
-$ tttinfo-announcer --help
-$ tttinfo-announcer --version
+0 * * * * /usr/local/bin/node /Users/admin/Projects/nau/info-to-speech.git/app.js
 ```
-
-
-
 
 ## Documentation
 
