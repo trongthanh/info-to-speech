@@ -1,0 +1,3020 @@
+{
+	"response": {
+		"version": "0.1",
+		"termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+		"features": {
+			"geolookup": 1,
+			"conditions": 1,
+			"hourly": 1
+		}
+	},
+	"location": {
+		"type": "INTLCITY",
+		"country": "VS",
+		"country_iso3166": "VN",
+		"country_name": "Viet Nam",
+		"state": "",
+		"city": "Ho Chi Minh",
+		"tz_short": "ICT",
+		"tz_long": "Asia/Ho_Chi_Minh",
+		"lat": "10.81999969",
+		"lon": "106.66999817",
+		"zip": "00000",
+		"magic": "1",
+		"wmo": "48900",
+		"l": "/q/zmw:00000.1.48900",
+		"requesturl": "global/stations/48900.html",
+		"wuiurl": "http://www.wunderground.com/global/stations/48900.html",
+		"nearby_weather_stations": {
+			"airport": {
+				"station": [
+					{
+						"city": "Ho Chi Minh",
+						"state": "",
+						"country": "Vietnam",
+						"icao": "VVTS",
+						"lat": "10.81666660",
+						"lon": "106.66666412"
+					},
+					{
+						"city": "Ho Chi Minh",
+						"state": "",
+						"country": "VS",
+						"icao": "VVTS",
+						"lat": "10.81666660",
+						"lon": "106.66666412"
+					}
+				]
+			},
+			"pws": {
+				"station": []
+			}
+		}
+	},
+	"current_observation": {
+		"image": {
+			"url": "http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+			"title": "Weather Underground",
+			"link": "http://www.wunderground.com"
+		},
+		"display_location": {
+			"full": "Ho Chi Minh, Viet Nam",
+			"city": "Ho Chi Minh",
+			"state": "",
+			"state_name": "Viet Nam",
+			"country": "VS",
+			"country_iso3166": "VN",
+			"zip": "00000",
+			"magic": "1",
+			"wmo": "48900",
+			"latitude": "10.81999969",
+			"longitude": "106.66999817",
+			"elevation": "19.00000000"
+		},
+		"observation_location": {
+			"full": "Ho Chi Minh, ",
+			"city": "Ho Chi Minh",
+			"state": "",
+			"country": "VS",
+			"country_iso3166": "VN",
+			"latitude": "10.81666660",
+			"longitude": "106.66666412",
+			"elevation": "62 ft"
+		},
+		"estimated": {},
+		"station_id": "VVTS",
+		"observation_time": "Last Updated on October 8, 2:30 PM ICT",
+		"observation_time_rfc822": "Wed, 08 Oct 2014 14:30:00 +0700",
+		"observation_epoch": "1412753400",
+		"local_time_rfc822": "Wed, 08 Oct 2014 15:06:11 +0700",
+		"local_epoch": "1412755571",
+		"local_tz_short": "ICT",
+		"local_tz_long": "Asia/Ho_Chi_Minh",
+		"local_tz_offset": "+0700",
+		"weather": "Mostly Cloudy",
+		"temperature_string": "84 F (29 C)",
+		"temp_f": 84,
+		"temp_c": 29,
+		"relative_humidity": "66%",
+		"wind_string": "From the NNW at 9 MPH",
+		"wind_dir": "NNW",
+		"wind_degrees": 340,
+		"wind_mph": 9,
+		"wind_gust_mph": 0,
+		"wind_kph": 15,
+		"wind_gust_kph": 0,
+		"pressure_mb": "1008",
+		"pressure_in": "29.77",
+		"pressure_trend": "0",
+		"dewpoint_string": "72 F (22 C)",
+		"dewpoint_f": 72,
+		"dewpoint_c": 22,
+		"heat_index_string": "90 F (32 C)",
+		"heat_index_f": 90,
+		"heat_index_c": 32,
+		"windchill_string": "NA",
+		"windchill_f": "NA",
+		"windchill_c": "NA",
+		"feelslike_string": "90 F (32 C)",
+		"feelslike_f": "90",
+		"feelslike_c": "32",
+		"visibility_mi": "6.2",
+		"visibility_km": "10.0",
+		"solarradiation": "--",
+		"UV": "5",
+		"precip_1hr_string": "-9999.00 in (-9999.00 mm)",
+		"precip_1hr_in": "-9999.00",
+		"precip_1hr_metric": "--",
+		"precip_today_string": "0.00 in (0.0 mm)",
+		"precip_today_in": "0.00",
+		"precip_today_metric": "0.0",
+		"icon": "mostlycloudy",
+		"icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url": "http://www.wunderground.com/global/stations/48900.html",
+		"history_url": "http://www.wunderground.com/history/airport/VVTS/2014/10/8/DailyHistory.html",
+		"ob_url": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=10.81666660,106.66666412",
+		"nowcast": ""
+	},
+	"hourly_forecast": [
+		{
+			"FCTTIME": {
+				"hour": "16",
+				"hour_padded": "16",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412758800",
+				"pretty": "4:00 PM ICT on October 08, 2014",
+				"civil": "4:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "84",
+				"metric": "29"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/tstorms.gif",
+			"fctcode": "15",
+			"sky": "86",
+			"wspd": {
+				"english": "9",
+				"metric": "14"
+			},
+			"wdir": {
+				"dir": "W",
+				"degrees": "274"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "1",
+			"humidity": "72",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "91",
+				"metric": "33"
+			},
+			"feelslike": {
+				"english": "91",
+				"metric": "33"
+			},
+			"qpf": {
+				"english": "0.06",
+				"metric": "2"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "67",
+			"mslp": {
+				"english": "29.75",
+				"metric": "1007"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "17",
+				"hour_padded": "17",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412762400",
+				"pretty": "5:00 PM ICT on October 08, 2014",
+				"civil": "5:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "81",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "81",
+			"wspd": {
+				"english": "8",
+				"metric": "13"
+			},
+			"wdir": {
+				"dir": "W",
+				"degrees": "280"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "81",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "85",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "85",
+				"metric": "30"
+			},
+			"qpf": {
+				"english": "0.01",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "51",
+			"mslp": {
+				"english": "29.77",
+				"metric": "1008"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "18",
+				"hour_padded": "18",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412766000",
+				"pretty": "6:00 PM ICT on October 08, 2014",
+				"civil": "6:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "80",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "73",
+			"wspd": {
+				"english": "6",
+				"metric": "10"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "305"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "83",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "85",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "80",
+				"metric": "27"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "52",
+			"mslp": {
+				"english": "29.79",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "19",
+				"hour_padded": "19",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412769600",
+				"pretty": "7:00 PM ICT on October 08, 2014",
+				"civil": "7:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "80",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "67",
+			"wspd": {
+				"english": "5",
+				"metric": "8"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "319"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "84",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "86",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "80",
+				"metric": "27"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "53",
+			"mslp": {
+				"english": "29.81",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "20",
+				"hour_padded": "20",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412773200",
+				"pretty": "8:00 PM ICT on October 08, 2014",
+				"civil": "8:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "80",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Mostly Cloudy",
+			"icon": "mostlycloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+			"fctcode": "3",
+			"sky": "71",
+			"wspd": {
+				"english": "5",
+				"metric": "8"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "332"
+			},
+			"wx": "Mostly Cloudy",
+			"uvi": "0",
+			"humidity": "83",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "85",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "80",
+				"metric": "27"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "24",
+			"mslp": {
+				"english": "29.82",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "21",
+				"hour_padded": "21",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412776800",
+				"pretty": "9:00 PM ICT on October 08, 2014",
+				"civil": "9:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "79",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+			"fctcode": "4",
+			"sky": "80",
+			"wspd": {
+				"english": "5",
+				"metric": "8"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "328"
+			},
+			"wx": "Cloudy",
+			"uvi": "0",
+			"humidity": "85",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "79",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "24",
+			"mslp": {
+				"english": "29.84",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "22",
+				"hour_padded": "22",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412780400",
+				"pretty": "10:00 PM ICT on October 08, 2014",
+				"civil": "10:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "79",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+			"fctcode": "4",
+			"sky": "83",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "321"
+			},
+			"wx": "Cloudy",
+			"uvi": "0",
+			"humidity": "86",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "79",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "24",
+			"mslp": {
+				"english": "29.85",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "23",
+				"hour_padded": "23",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "8",
+				"mday_padded": "08",
+				"yday": "280",
+				"isdst": "0",
+				"epoch": "1412784000",
+				"pretty": "11:00 PM ICT on October 08, 2014",
+				"civil": "11:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Wednesday",
+				"weekday_name_night": "Wednesday Night",
+				"weekday_name_abbrev": "Wed",
+				"weekday_name_unlang": "Wednesday",
+				"weekday_name_night_unlang": "Wednesday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "79",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+			"fctcode": "4",
+			"sky": "80",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "317"
+			},
+			"wx": "Cloudy",
+			"uvi": "0",
+			"humidity": "86",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "79",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "24",
+			"mslp": {
+				"english": "29.85",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "0",
+				"hour_padded": "00",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412787600",
+				"pretty": "12:00 AM ICT on October 09, 2014",
+				"civil": "12:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "78",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "75",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "314"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "89",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "78",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.01",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "41",
+			"mslp": {
+				"english": "29.84",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "1",
+				"hour_padded": "01",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412791200",
+				"pretty": "1:00 AM ICT on October 09, 2014",
+				"civil": "1:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "78",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "72",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "317"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "89",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "78",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "43",
+			"mslp": {
+				"english": "29.83",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "2",
+				"hour_padded": "02",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412794800",
+				"pretty": "2:00 AM ICT on October 09, 2014",
+				"civil": "2:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "78",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+			"fctcode": "15",
+			"sky": "80",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "323"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "0",
+			"humidity": "90",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "78",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.03",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "74",
+			"mslp": {
+				"english": "29.82",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "3",
+				"hour_padded": "03",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412798400",
+				"pretty": "3:00 AM ICT on October 09, 2014",
+				"civil": "3:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "77",
+				"metric": "25"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "88",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "320"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "91",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "77",
+				"metric": "25"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "57",
+			"mslp": {
+				"english": "29.82",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "4",
+				"hour_padded": "04",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412802000",
+				"pretty": "4:00 AM ICT on October 09, 2014",
+				"civil": "4:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "77",
+				"metric": "25"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "93",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "323"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "92",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "77",
+				"metric": "25"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "58",
+			"mslp": {
+				"english": "29.81",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "5",
+				"hour_padded": "05",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412805600",
+				"pretty": "5:00 AM ICT on October 09, 2014",
+				"civil": "5:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "76",
+				"metric": "24"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "94",
+			"wspd": {
+				"english": "5",
+				"metric": "8"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "329"
+			},
+			"wx": "Isolated Thunderstorms",
+			"uvi": "0",
+			"humidity": "93",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "76",
+				"metric": "24"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "32",
+			"mslp": {
+				"english": "29.82",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "6",
+				"hour_padded": "06",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412809200",
+				"pretty": "6:00 AM ICT on October 09, 2014",
+				"civil": "6:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "77",
+				"metric": "25"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "96",
+			"wspd": {
+				"english": "5",
+				"metric": "8"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "333"
+			},
+			"wx": "Isolated Thunderstorms",
+			"uvi": "0",
+			"humidity": "93",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "77",
+				"metric": "25"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "31",
+			"mslp": {
+				"english": "29.83",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "7",
+				"hour_padded": "07",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412812800",
+				"pretty": "7:00 AM ICT on October 09, 2014",
+				"civil": "7:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "79",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "97",
+			"wspd": {
+				"english": "6",
+				"metric": "10"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "344"
+			},
+			"wx": "Isolated Thunderstorms",
+			"uvi": "0",
+			"humidity": "88",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "79",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "30",
+			"mslp": {
+				"english": "29.83",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "8",
+				"hour_padded": "08",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412816400",
+				"pretty": "8:00 AM ICT on October 09, 2014",
+				"civil": "8:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "81",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+			"fctcode": "4",
+			"sky": "95",
+			"wspd": {
+				"english": "7",
+				"metric": "11"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "343"
+			},
+			"wx": "Cloudy",
+			"uvi": "1",
+			"humidity": "82",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "86",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "86",
+				"metric": "30"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "15",
+			"mslp": {
+				"english": "29.85",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "9",
+				"hour_padded": "09",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412820000",
+				"pretty": "9:00 AM ICT on October 09, 2014",
+				"civil": "9:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "83",
+				"metric": "28"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+			"fctcode": "4",
+			"sky": "92",
+			"wspd": {
+				"english": "7",
+				"metric": "11"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "343"
+			},
+			"wx": "Cloudy",
+			"uvi": "3",
+			"humidity": "76",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "90",
+				"metric": "32"
+			},
+			"feelslike": {
+				"english": "90",
+				"metric": "32"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "14",
+			"mslp": {
+				"english": "29.85",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "10",
+				"hour_padded": "10",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412823600",
+				"pretty": "10:00 AM ICT on October 09, 2014",
+				"civil": "10:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "85",
+				"metric": "29"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+			"fctcode": "4",
+			"sky": "91",
+			"wspd": {
+				"english": "7",
+				"metric": "11"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "339"
+			},
+			"wx": "Cloudy",
+			"uvi": "5",
+			"humidity": "71",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "92",
+				"metric": "33"
+			},
+			"feelslike": {
+				"english": "92",
+				"metric": "33"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "12",
+			"mslp": {
+				"english": "29.86",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "11",
+				"hour_padded": "11",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412827200",
+				"pretty": "11:00 AM ICT on October 09, 2014",
+				"civil": "11:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "86",
+				"metric": "30"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Overcast",
+			"icon": "cloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+			"fctcode": "4",
+			"sky": "88",
+			"wspd": {
+				"english": "7",
+				"metric": "11"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "334"
+			},
+			"wx": "Cloudy",
+			"uvi": "6",
+			"humidity": "68",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "93",
+				"metric": "34"
+			},
+			"feelslike": {
+				"english": "93",
+				"metric": "34"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "24",
+			"mslp": {
+				"english": "29.84",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "12",
+				"hour_padded": "12",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412830800",
+				"pretty": "12:00 PM ICT on October 09, 2014",
+				"civil": "12:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "87",
+				"metric": "31"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Mostly Cloudy",
+			"icon": "mostlycloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+			"fctcode": "3",
+			"sky": "72",
+			"wspd": {
+				"english": "8",
+				"metric": "13"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "325"
+			},
+			"wx": "Mostly Cloudy",
+			"uvi": "11",
+			"humidity": "65",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "96",
+				"metric": "35"
+			},
+			"feelslike": {
+				"english": "96",
+				"metric": "35"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "23",
+			"mslp": {
+				"english": "29.8",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "13",
+				"hour_padded": "13",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412834400",
+				"pretty": "1:00 PM ICT on October 09, 2014",
+				"civil": "1:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "87",
+				"metric": "31"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Mostly Cloudy",
+			"icon": "mostlycloudy",
+			"icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+			"fctcode": "3",
+			"sky": "61",
+			"wspd": {
+				"english": "8",
+				"metric": "13"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "320"
+			},
+			"wx": "Mostly Cloudy",
+			"uvi": "11",
+			"humidity": "65",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "96",
+				"metric": "35"
+			},
+			"feelslike": {
+				"english": "96",
+				"metric": "35"
+			},
+			"qpf": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "23",
+			"mslp": {
+				"english": "29.77",
+				"metric": "1008"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "14",
+				"hour_padded": "14",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412838000",
+				"pretty": "2:00 PM ICT on October 09, 2014",
+				"civil": "2:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "86",
+				"metric": "30"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "63",
+			"wspd": {
+				"english": "8",
+				"metric": "13"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "317"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "7",
+			"humidity": "67",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "93",
+				"metric": "34"
+			},
+			"feelslike": {
+				"english": "93",
+				"metric": "34"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "52",
+			"mslp": {
+				"english": "29.75",
+				"metric": "1007"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "15",
+				"hour_padded": "15",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412841600",
+				"pretty": "3:00 PM ICT on October 09, 2014",
+				"civil": "3:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "86",
+				"metric": "30"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/tstorms.gif",
+			"fctcode": "15",
+			"sky": "61",
+			"wspd": {
+				"english": "6",
+				"metric": "10"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "311"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "4",
+			"humidity": "70",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "95",
+				"metric": "35"
+			},
+			"feelslike": {
+				"english": "95",
+				"metric": "35"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "62",
+			"mslp": {
+				"english": "29.74",
+				"metric": "1007"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "16",
+				"hour_padded": "16",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412845200",
+				"pretty": "4:00 PM ICT on October 09, 2014",
+				"civil": "4:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "86",
+				"metric": "30"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/tstorms.gif",
+			"fctcode": "15",
+			"sky": "69",
+			"wspd": {
+				"english": "5",
+				"metric": "8"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "312"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "1",
+			"humidity": "69",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "95",
+				"metric": "35"
+			},
+			"feelslike": {
+				"english": "95",
+				"metric": "35"
+			},
+			"qpf": {
+				"english": "0.04",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "67",
+			"mslp": {
+				"english": "29.74",
+				"metric": "1007"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "17",
+				"hour_padded": "17",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412848800",
+				"pretty": "5:00 PM ICT on October 09, 2014",
+				"civil": "5:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "83",
+				"metric": "28"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/tstorms.gif",
+			"fctcode": "15",
+			"sky": "75",
+			"wspd": {
+				"english": "6",
+				"metric": "10"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "315"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "0",
+			"humidity": "76",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "90",
+				"metric": "32"
+			},
+			"feelslike": {
+				"english": "90",
+				"metric": "32"
+			},
+			"qpf": {
+				"english": "0.06",
+				"metric": "2"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "77",
+			"mslp": {
+				"english": "29.75",
+				"metric": "1007"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "18",
+				"hour_padded": "18",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412852400",
+				"pretty": "6:00 PM ICT on October 09, 2014",
+				"civil": "6:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "82",
+				"metric": "28"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+			"fctcode": "15",
+			"sky": "82",
+			"wspd": {
+				"english": "4",
+				"metric": "6"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "323"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "0",
+			"humidity": "80",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "90",
+				"metric": "32"
+			},
+			"feelslike": {
+				"english": "90",
+				"metric": "32"
+			},
+			"qpf": {
+				"english": "0.06",
+				"metric": "2"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "78",
+			"mslp": {
+				"english": "29.77",
+				"metric": "1008"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "19",
+				"hour_padded": "19",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412856000",
+				"pretty": "7:00 PM ICT on October 09, 2014",
+				"civil": "7:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "81",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Thunderstorm",
+			"icon": "tstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+			"fctcode": "15",
+			"sky": "84",
+			"wspd": {
+				"english": "3",
+				"metric": "5"
+			},
+			"wdir": {
+				"dir": "NNW",
+				"degrees": "329"
+			},
+			"wx": "Thunderstorms",
+			"uvi": "0",
+			"humidity": "84",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "86",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "86",
+				"metric": "30"
+			},
+			"qpf": {
+				"english": "0.05",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "78",
+			"mslp": {
+				"english": "29.79",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "20",
+				"hour_padded": "20",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412859600",
+				"pretty": "8:00 PM ICT on October 09, 2014",
+				"civil": "8:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "80",
+				"metric": "27"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "81",
+			"wspd": {
+				"english": "3",
+				"metric": "5"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "317"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "85",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "86",
+				"metric": "30"
+			},
+			"feelslike": {
+				"english": "80",
+				"metric": "27"
+			},
+			"qpf": {
+				"english": "0.04",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "55",
+			"mslp": {
+				"english": "29.81",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "21",
+				"hour_padded": "21",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412863200",
+				"pretty": "9:00 PM ICT on October 09, 2014",
+				"civil": "9:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "79",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "75",
+			"wspd": {
+				"english": "3",
+				"metric": "5"
+			},
+			"wdir": {
+				"dir": "WNW",
+				"degrees": "300"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "87",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "79",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.04",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "55",
+			"mslp": {
+				"english": "29.83",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "22",
+				"hour_padded": "22",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412866800",
+				"pretty": "10:00 PM ICT on October 09, 2014",
+				"civil": "10:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "79",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "70",
+			"wspd": {
+				"english": "2",
+				"metric": "3"
+			},
+			"wdir": {
+				"dir": "W",
+				"degrees": "270"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "88",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "79",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.06",
+				"metric": "2"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "55",
+			"mslp": {
+				"english": "29.84",
+				"metric": "1011"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "23",
+				"hour_padded": "23",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "9",
+				"mday_padded": "09",
+				"yday": "281",
+				"isdst": "0",
+				"epoch": "1412870400",
+				"pretty": "11:00 PM ICT on October 09, 2014",
+				"civil": "11:00 PM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Thursday",
+				"weekday_name_night": "Thursday Night",
+				"weekday_name_abbrev": "Thu",
+				"weekday_name_unlang": "Thursday",
+				"weekday_name_night_unlang": "Thursday Night",
+				"ampm": "PM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "78",
+				"metric": "26"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "66",
+			"wspd": {
+				"english": "3",
+				"metric": "5"
+			},
+			"wdir": {
+				"dir": "W",
+				"degrees": "261"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "89",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "78",
+				"metric": "26"
+			},
+			"qpf": {
+				"english": "0.05",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "51",
+			"mslp": {
+				"english": "29.83",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "0",
+				"hour_padded": "00",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "10",
+				"mday_padded": "10",
+				"yday": "282",
+				"isdst": "0",
+				"epoch": "1412874000",
+				"pretty": "12:00 AM ICT on October 10, 2014",
+				"civil": "12:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Friday",
+				"weekday_name_night": "Friday Night",
+				"weekday_name_abbrev": "Fri",
+				"weekday_name_unlang": "Friday",
+				"weekday_name_night_unlang": "Friday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "77",
+				"metric": "25"
+			},
+			"dewpoint": {
+				"english": "75",
+				"metric": "24"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "60",
+			"wspd": {
+				"english": "3",
+				"metric": "5"
+			},
+			"wdir": {
+				"dir": "W",
+				"degrees": "268"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "91",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "77",
+				"metric": "25"
+			},
+			"qpf": {
+				"english": "0.04",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "52",
+			"mslp": {
+				"english": "29.82",
+				"metric": "1010"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "1",
+				"hour_padded": "01",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "10",
+				"mday_padded": "10",
+				"yday": "282",
+				"isdst": "0",
+				"epoch": "1412877600",
+				"pretty": "1:00 AM ICT on October 10, 2014",
+				"civil": "1:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Friday",
+				"weekday_name_night": "Friday Night",
+				"weekday_name_abbrev": "Fri",
+				"weekday_name_unlang": "Friday",
+				"weekday_name_night_unlang": "Friday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "77",
+				"metric": "25"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "56",
+			"wspd": {
+				"english": "2",
+				"metric": "3"
+			},
+			"wdir": {
+				"dir": "W",
+				"degrees": "278"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "91",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "77",
+				"metric": "25"
+			},
+			"qpf": {
+				"english": "0.03",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "52",
+			"mslp": {
+				"english": "29.81",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "2",
+				"hour_padded": "02",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "10",
+				"mday_padded": "10",
+				"yday": "282",
+				"isdst": "0",
+				"epoch": "1412881200",
+				"pretty": "2:00 AM ICT on October 10, 2014",
+				"civil": "2:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Friday",
+				"weekday_name_night": "Friday Night",
+				"weekday_name_abbrev": "Fri",
+				"weekday_name_unlang": "Friday",
+				"weekday_name_night_unlang": "Friday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "77",
+				"metric": "25"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "56",
+			"wspd": {
+				"english": "2",
+				"metric": "3"
+			},
+			"wdir": {
+				"dir": "WNW",
+				"degrees": "293"
+			},
+			"wx": "Scattered Thunderstorms",
+			"uvi": "0",
+			"humidity": "91",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "77",
+				"metric": "25"
+			},
+			"qpf": {
+				"english": "0.03",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "35",
+			"mslp": {
+				"english": "29.8",
+				"metric": "1009"
+			}
+		},
+		{
+			"FCTTIME": {
+				"hour": "3",
+				"hour_padded": "03",
+				"min": "00",
+				"min_unpadded": "0",
+				"sec": "0",
+				"year": "2014",
+				"mon": "10",
+				"mon_padded": "10",
+				"mon_abbrev": "Oct",
+				"mday": "10",
+				"mday_padded": "10",
+				"yday": "282",
+				"isdst": "0",
+				"epoch": "1412884800",
+				"pretty": "3:00 AM ICT on October 10, 2014",
+				"civil": "3:00 AM",
+				"month_name": "October",
+				"month_name_abbrev": "Oct",
+				"weekday_name": "Friday",
+				"weekday_name_night": "Friday Night",
+				"weekday_name_abbrev": "Fri",
+				"weekday_name_unlang": "Friday",
+				"weekday_name_night_unlang": "Friday Night",
+				"ampm": "AM",
+				"tz": "",
+				"age": "",
+				"UTCDATE": ""
+			},
+			"temp": {
+				"english": "76",
+				"metric": "24"
+			},
+			"dewpoint": {
+				"english": "74",
+				"metric": "23"
+			},
+			"condition": "Chance of a Thunderstorm",
+			"icon": "chancetstorms",
+			"icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+			"fctcode": "14",
+			"sky": "59",
+			"wspd": {
+				"english": "2",
+				"metric": "3"
+			},
+			"wdir": {
+				"dir": "NW",
+				"degrees": "307"
+			},
+			"wx": "Isolated Thunderstorms",
+			"uvi": "0",
+			"humidity": "92",
+			"windchill": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"heatindex": {
+				"english": "-9999",
+				"metric": "-9999"
+			},
+			"feelslike": {
+				"english": "76",
+				"metric": "24"
+			},
+			"qpf": {
+				"english": "0.02",
+				"metric": "1"
+			},
+			"snow": {
+				"english": "0.0",
+				"metric": "0"
+			},
+			"pop": "34",
+			"mslp": {
+				"english": "29.79",
+				"metric": "1009"
+			}
+		}
+	]
+}
