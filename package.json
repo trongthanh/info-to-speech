@@ -42,7 +42,7 @@
   },
   "preferGlobal": "true",
   "dependencies": {
-    "player": "^0.6.1",
+    "afplay": "^1.0.2",
     "request": "^2.69.0"
   },
   "eslintConfig": {
