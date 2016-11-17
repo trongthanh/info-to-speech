@@ -37,6 +37,7 @@
   "scripts": {
     "test": "grunt"
   },
+  "main": "app.js",
   "bin": {
     "info-tts": "cli.js"
   },
